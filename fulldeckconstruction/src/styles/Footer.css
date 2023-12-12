@@ -6,11 +6,19 @@
     height: 30px;
     background-color: #828792;
     color:rgb(5, 5, 5);
+    font-style: bold;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.footer p {
+    color:rgb(5, 5, 5);
+    font-style: bold;
 }
 
 .pFooter {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 45px;
+    color:rgb(5, 5, 5);
+    font-style: bold;
 }
