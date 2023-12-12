@@ -10,14 +10,26 @@
 .landingBody {
   text-align: center;
   align-items: center;
+  background-color: #282c34;
+}
+
+.landingBody h1{
+  color: rgb(146, 144, 30);
+}
+
+.picContainer {
+  background-color: #282c34;
 }
 
 .landingContainer {
   margin-left: 600px;
+  background-color: #282c34;
 }
 
 .landingContainer article{
+  margin-top: 10px;
   width: 700px;
+  margin-bottom: 30px;
 }
 
 .Deck {
@@ -44,8 +56,9 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.landingBody article {
+  font-style: bold;
+  color: rgb(146, 144, 30);
 }
 
 @keyframes App-logo-spin {
