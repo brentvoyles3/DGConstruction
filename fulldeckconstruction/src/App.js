@@ -6,6 +6,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import Navbar from "./components/Navbar"
 import Home from "./components/Home";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
         {/* This is the alias of BrowserRouter i.e. Router */}
         <Router>
+        <Navbar />
             <Routes>
                 {/* This route is for home component 
       with exact path "/", in component props 

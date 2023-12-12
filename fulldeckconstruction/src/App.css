@@ -9,12 +9,21 @@
 
 .landingBody {
   text-align: center;
+  align-items: center;
+}
+
+.landingContainer {
+  margin-left: 600px;
+}
+
+.landingContainer article{
+  width: 700px;
 }
 
 .Deck {
-  margin-top: 50px;
-  width: 785px;
-  height:485px;
+  margin-top: 5px;
+  width: 100%;
+  height:685px;
 
 }
 
