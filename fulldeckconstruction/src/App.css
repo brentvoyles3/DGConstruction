@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.landingBody {
+  text-align: center;
+}
+
+.Deck {
+  margin-top: 50px;
+  width: 785px;
+  height:485px;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
